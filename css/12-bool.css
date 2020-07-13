@@ -24,7 +24,8 @@
 
 /* FRAMEWORK  */
 
-@media screen and (min-width: 1024px) {
+/* DESKTOP responsive > 1024 px*/
+@media screen and (min-width: 1025px) {
 
     /* largheza colonna LG large */
     .col-lg-1 {
@@ -122,8 +123,8 @@
 
 }
 
-/* TABLET responsive 769 - 992 px*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+/* TABLET responsive 768 - 1024 px*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
     /* largheza colonna LG large */
     .col-md-1 {
@@ -221,8 +222,8 @@
 }
 
 
-/* SMARTPHONET responsive < 769 px*/
-@media screen and (max-width: 768px) {
+/* MOBILE responsive < 768 px*/
+@media screen and (max-width: 767px) {
 
     /* largheza colonna LG large */
     .col-xs-1 {
