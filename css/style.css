@@ -3,3 +3,16 @@
   padding: 0;
   margin: 0;
 }
+
+h2 {
+  text-align: center;
+}
+
+.img-full {
+  max-height: 200px;
+}
+
+/* impostazioni generale delle colonne per affiancarle */
+[class*="col-"] {
+  text-align: center;
+}
